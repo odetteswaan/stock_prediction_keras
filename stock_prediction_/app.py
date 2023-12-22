@@ -58,7 +58,7 @@ for i in range(100,data_training_array.shape[0]):
 x_train,y_train=np.array(x_train),np.array(y_train)
 
 
-model=load(open('model_keras_tensorflow.joblib'),'rb')
+model=load(open('./model_keras_tensorflow.joblib'),'rb')
 
 past_100_days=data_training.tail(100)
 final_df=pd.concat([past_100_days,data_testing])
