@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import pandas_datareader as data
+
 import yfinance as yf
 import streamlit as st
 from joblib import load
